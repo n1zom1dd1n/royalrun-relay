@@ -1,0 +1,15 @@
+{
+  "name": "royalrun-relay",
+  "version": "1.0.0",
+  "description": "Relay server that lets phones control the browser version of Royal Run",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
